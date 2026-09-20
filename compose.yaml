@@ -1,0 +1,11 @@
+services:
+  devicehub:
+    build: .
+    ports: ["18082:18082"]
+    environment:
+      PORT: 18082
+      DEVICEHUB_API_KEY: ${DEVICEHUB_API_KEY:-zhuatech-demo-key}
+      DEVICEHUB_DATA_FILE: /app/data/devicehub.json
+    volumes: ["devicehub-data:/app/data"]
+volumes:
+  devicehub-data:
