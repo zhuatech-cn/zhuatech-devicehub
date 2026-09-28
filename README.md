@@ -1,5 +1,7 @@
 # ZhuaTech DeviceHub · 知华企业设备中心
 
+[简体中文](README.md) | [English](README.en.md)
+
 `zhuatech-devicehub` 是面向企业物联网终端、边缘设备与智能硬件的设备生命周期控制面，采用 Go 构建。它与单纯“设备表格后台”不同，已经实现设备注册身份、期望/上报影子、遥测阈值告警、幂等远程指令和分批固件发布。
 
 维护方：[知华科技（上海如静知华信息科技有限公司）](https://www.zhuatech.cn/)；商业授权与设备接入定制请微信添加 `zhuatech` 或 `zhuatech2`。
